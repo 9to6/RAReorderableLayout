@@ -1,6 +1,8 @@
 RAReorderableLayout
 =======================
 
+I updated codes for Swift 4 forked from [https://github.com/ra1028/RAReorderableLayout](https://github.com/ra1028/RAReorderableLayout) 
+
 #### A UICollectionView layout which you can move items with drag and drop.
 
 
@@ -31,7 +33,7 @@ __iOS8 or later__
 use_frameworks!  
 
 target 'YOUR_TARGET_NAME' do
-  pod 'RAReorderableLayout'
+  pod 'RAReorderableLayout', :git => 'https://github.com/9to6/RAReorderableLayout.git'
 end
 
 ```
